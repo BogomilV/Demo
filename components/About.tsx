@@ -79,7 +79,7 @@ const About: React.FC = () => {
               {/* Decorative Border */}
               <div className="absolute top-4 right-4 w-full h-full border-2 border-red-600/20 z-0"></div>
               <img
-                src="https://picsum.photos/seed/tattooartist/600/800" 
+                src="/artist.jpg" 
                 alt="Профил на артиста"
                 className="relative z-10 w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-700 rounded-sm shadow-2xl"
               />
