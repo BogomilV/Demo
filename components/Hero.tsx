@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
         
         <div className="flex justify-center mb-8 md:mb-12">
             <p className="text-base sm:text-lg md:text-2xl text-gray-100 tracking-widest uppercase font-light border-y border-red-600/50 py-3 sm:py-4 backdrop-blur-sm bg-charcoal/30 px-6 sm:px-10 rounded-sm shadow-xl inline-block">
-              Професионални Татуировки <span className="hidden sm:inline">&</span><br className="sm:hidden" /> Изкуство
+              Професионални Татуировки 
             </p>
         </div>
         
