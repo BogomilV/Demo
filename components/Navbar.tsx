@@ -46,10 +46,11 @@ const Navbar: React.FC = () => {
           <div className="flex-shrink-0 flex items-center gap-3 group cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
              {/* Logo image with invert filter to make black ink white on dark background. 
                  Added drop-shadow for depth. */}
-            <img 
-              src="/logo.png" 
-              alt="Atanasov Art Logo" 
-              className="h-12 md:h-14 w-auto object-contain filter invert opacity-90 group-hover:opacity-100 transition-all duration-300 drop-shadow-[0_0_2px_rgba(255,255,255,0.3)]" 
+            <img
+              src="/logobqlo.png" // 1. Сменихме името на файла
+              alt="Atanasov Art Logo"
+              // 2. Махнахме 'filter invert' и 'drop-shadow', за да остане чистото лого
+              className="h-12 md:h-14 w-auto object-contain transition-all duration-300 group-hover:opacity-100 opacity-90"
             />
             <span className="font-display font-bold text-xl md:text-2xl text-white tracking-wider group-hover:text-red-500 transition-colors">
               ATANASOV<span className="text-red-500 group-hover:text-white transition-colors">ART</span>
