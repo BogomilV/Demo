@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
              {/* Logo image with invert filter to make black ink white on dark background. 
                  Added drop-shadow for depth. */}
             <img
-              src="/logobqlo.png?v=2" // 1. Сменихме името на файла
+              src="/logobqlo.png" // 1. Сменихме името на файла
               alt="Atanasov Art Logo"
               // 2. Махнахме 'filter invert' и 'drop-shadow', за да остане чистото лого
               className="h-12 md:h-14 w-auto object-contain transition-all duration-300 group-hover:opacity-100 opacity-90"
