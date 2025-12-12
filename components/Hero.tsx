@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
         <img
           src="/newhero-bg.jpg"
           alt="Atanasov Art Tattoo Studio Background"
-          className="absolute inset-0 -z-10 h-full w-full object-cover object-[50%_20%]"
+          className="absolute inset-0 -z-10 h-full w-full object-cover object-[50%_10%]"
           onError={(e) => {
              // Fallback if the image file is not found
              e.currentTarget.src = "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?auto=format&fit=crop&q=80";
